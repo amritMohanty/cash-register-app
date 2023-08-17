@@ -1,0 +1,13 @@
+
+
+body{
+    width: 600px;
+    margin: auto;
+}
+
+.container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
