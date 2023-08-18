@@ -9,12 +9,17 @@
 <body>
     <div class="container">
         <h1 class="heading">Cash Register</h1>
-        <h3 class="description">This is a cash register application. Enter details for usage.</h3>
+        <h3 class="description">This is a cash register application. Enter details for calculating change return.</h3>
         <label for="bill-amount">Enter the Bill Amount</label>
-        <input type="text" id="bill-amount">
+        <!-- <input type="text" id="bill-amount"> -->
+        <div class="input">
+            <input type="text" id="bill-amount"/>
+        </div>
         <label for="cash-amount">Enter the Cash Amount</label>
-        <input type="text" id="cash-amount">
-        <button class="btn btn-outline-danger" id="button-check">check</button>
+        <div class="input">
+            <input type="text" id="cash-amount">
+        </div>
+        <button id="button-check">check</button>
         <div id="message"></div>
         <table id="cash-table">
 
